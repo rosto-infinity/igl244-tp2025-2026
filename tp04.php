@@ -44,3 +44,8 @@ class Moto extends Vehicule {
         echo "Type de moteur : {$this->typeMoteur}\n";
     }
 }
+$voiture = new Voiture("Toyota", "Corolla", 2020, 4);
+$moto = new Moto("Yamaha", "MT-07", 2019, "Parallèle");
+$voiture->afficherDetails();
+echo "\n";
+ $moto->afficherDetails();
